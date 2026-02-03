@@ -35,7 +35,8 @@ body{
       background: radial-gradient(1200px 600px at 20% 20%, var(--bg2), transparent 55%),
                   radial-gradient(1000px 500px at 80% 30%, #ffe7d6, transparent 55%),
                   linear-gradient(180deg, var(--bg1), #fff);
-      overflow:hidden;
+      overflow-x:hidden;
+  	  overflow-y:auto;
     }
 
     /* Corazones de fondo */
@@ -75,6 +76,7 @@ body{
       padding: 18px;
       position:relative;
       z-index:2;
+	  max-width: 92vw;
     }
     .card{
       background:var(--card);
@@ -412,3 +414,4 @@ btnNo.addEventListener("touchstart", (e) => {
   </script>
 </body>
 </html>
+
